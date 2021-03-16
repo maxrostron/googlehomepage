@@ -81,3 +81,130 @@ body {
             .btn:hover {
                 filter: brightness(105%);
             }
+
+#footer-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: rgba(0, 0, 0, 0.54)
+}
+
+    .upper-footer {
+        border-bottom: solid 0.5px #dadce0;
+    }
+
+        .upper-footer > p {
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+
+    .lower-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+        .lower-footer-left {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .lower-footer-left > p {
+                padding: 15px;
+            }
+
+        .lower-footer-middle {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+    
+            .green-leaf {
+                height: 15px;
+                margin-right: 4px;
+            }
+
+        .lower-footer-right {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .lower-footer-right > p {
+                padding: 15px;
+            }
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+    .logo {
+        height: 115px;
+        width: auto;
+        margin-top: 4%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+        .search-bar {
+            width: 450px;
+            border-radius: 20px;
+            border: solid 1.25px  #dadce0;
+            height: 30px;
+            padding: 2px 23px 2px 35px;
+            
+        }
+
+        .search-bar:hover {
+            box-shadow: 0 1px 6px #888888;
+        }
+
+        .search-icon {
+            width: 20px;
+            position: absolute;
+            left: 105px;
+            top: 9px;
+            fill: #dadce0;
+        }
+
+        .search-voice {
+            width: 20px;
+            position: absolute;
+            right: 105px;
+            top: 8px;
+        }
+
+    .search-buttons {
+        margin-top: 30px;
+    }
+
+    .search-go {
+        background-color: #f8f9fa;
+        color: #3c4043;
+    }
